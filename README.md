@@ -26,9 +26,6 @@ Event Delegation is a technique where we use a parent listener  instead of using
 
 
 5. What is the difference between preventDefault() and stopPropagation() methods?
-preventDefault() methods:
-
-stops that specific "default" thing from happening, but the event still "bubbles up" the DOM tree. Common Use Case: Form validation or custom link behavior.
-stopPropagation() methods:
-
-stops that specific "default" thing and Don't let this event bubble up any further. Common Use Case:Preventing a child click from triggering a parent's "close" or "delete" function.
+These two are related with event but actions are different.
+preventDefault() : it stops default behavior of Element.
+topPropagation() : It stops bubbling of event.
