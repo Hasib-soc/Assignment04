@@ -22,7 +22,9 @@ Event Bubbling such a process whereas if event happens in child element, that ev
 
 4. What is Event Delegation in JavaScript? Why is it useful?
 
-Event Delegation as a "Smart Manager" strategy. Instead of giving instructions to every single employee (element). the instructions to the manager (parent element) and let them handle everything that happens in their department. it useful because 1. Better Performance. 2. Works for "Future" Elements
+Event Delegation is a technique where we use a parent listener  instead of using separate listener and we do our task by using Event Bubbling.  
+
+
 5. What is the difference between preventDefault() and stopPropagation() methods?
 preventDefault() methods:
 
