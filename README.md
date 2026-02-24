@@ -29,3 +29,4 @@ Event Delegation is a technique where we use a parent listener  instead of using
 These two are related with event but actions are different.
 preventDefault() : it stops default behavior of Element.
 topPropagation() : It stops bubbling of event.
+------------------*****-----------------------------------
